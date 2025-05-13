@@ -1,4 +1,4 @@
-import Side from "./sidebar";
+import Side from "./Sidebar";
 
 const RootLayout = ({ children }) => {
   return (
