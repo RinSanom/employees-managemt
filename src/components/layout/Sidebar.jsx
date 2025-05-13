@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router";
 
-export function Side() {
+export default function Side() {
   return (
     <div className="flex h-screen flex-col justify-between border-e sticky top-0 start-0 border-gray-100 bg-gray-300">
       <div className="px-4 py-6">

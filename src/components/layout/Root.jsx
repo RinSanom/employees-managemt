@@ -1,7 +1,4 @@
-// layout/RootLayout.js
-
-import Navbar from "./Navbar";
-import { Side } from "./sidebar";
+import Side from "./sidebar";
 
 const RootLayout = ({ children }) => {
   return (

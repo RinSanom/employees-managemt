@@ -1,14 +1,9 @@
 import React from "react";
 import {
-  useGetAllEmployeeQuery,
-  useGetCountEmployeeQuery,
   useGetDepartmentQuery,
 } from "../../redux/features/demo/demoApi";
-import { Side } from "../../components/layout/sidebar";
 import Cart from "../../components/cart/Cart";
 import Employee from "../../components/cart/Employee";
-import Table from "../../components/table/Table";
-import TableDepart from "../../components/table/TableDepart";
 const Home = () => {
   const { data, error, isLoading } = useGetDepartmentQuery();
 
